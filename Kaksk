@@ -1,0 +1,174 @@
+corpo {
+    família de fontes: Arial, Helvetica, sans-serif;
+    cor de fundo: #ff6600;
+    cor: #fff;
+    margem: 0;
+    preenchimento: 0;
+}
+
+.recipiente {
+    largura: 90%;
+    largura máxima: 1100px;
+    margem: 0 auto;
+}
+
+
+.cabecalho {
+    cor de fundo: #e65c00;
+    preenchimento: 10px 0;
+    caixa-sombra: 0 3px 10px rgba(0,0,0,0.2);
+    posição: fixa;
+    topo: 0;
+    esquerda: 0;
+    largura: 100%;
+    índice z: 1000;
+}
+
+.cabecalho .container {
+    exibição: flexível;
+    alinhar-itens: centro;
+    justificar-conteúdo: espaço-entre;
+}
+
+.logo img {
+    altura: 60px;
+}
+
+.menu-cabecalho ul {
+    estilo de lista: nenhum;
+    exibição: flexível;
+    lacuna: 15px;
+    margem: 0;
+    preenchimento: 0;
+}
+
+.menu-cabecalho a {
+    cor: #fff;
+    tamanho da fonte: 1,3rem;
+    transição: 0,3s;
+}
+
+.menu-cabecalho a:hover {
+    cor: #ffe0cc;
+}
+
+.menu {
+    cor de fundo: #cc5200;
+    preenchimento: 10px 0;
+    margem superior: 80px;
+}
+
+.menu ul {
+    estilo de lista: nenhum;
+    exibição: flexível;
+    justificar-conteúdo: centro;
+    lacuna: 30px;
+    margem: 0;
+    preenchimento: 0;
+}
+
+.menu a {
+    cor: #fff;
+    espessura da fonte: negrito;
+    decoração de texto: nenhuma;
+    transição: 0,3s;
+}
+
+.menu a:hover {
+    cor: #ffe0cc;
+    decoração de texto: sublinhado;
+}
+
+h1 {
+    alinhamento de texto: centro;
+    tamanho da fonte: 2,5 rem;
+    margem: 30px 0 10px;
+}
+
+h2 {
+    alinhamento de texto: centro;
+    tamanho da fonte: 1,2rem;
+    cor: #ffe6cc;
+    margem inferior: 30px;
+}
+
+
+.Youtube, .spotify {
+    exibição: flexível;
+    alinhar-itens: centro;
+    lacuna: 15px;
+    margem: 20px automático;
+    preenchimento: 15px 20px;
+    largura máxima: 400px;
+    cor de fundo: #fff;
+    raio da borda: 12px;
+    caixa-sombra: 0 4px 10px rgba(0,0,0,0.3);
+    transição: transformação 0,2s, sombra de caixa 0,2s;
+}
+
+.Youtube:passe o mouse, .spotify:passe o mouse {
+    transformar: translateY(-5px);
+    caixa-sombra: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+.Imagem do YouTube, .Imagem do Spotify {
+    largura: 50px;
+    altura: automático;
+}
+
+.Youtube a, .spotify a {
+    decoração de texto: nenhuma;
+    espessura da fonte: negrito;
+    cor: #ff6600;
+    tamanho da fonte: 1.1rem;
+    transição: 0,3s;
+}
+
+.Youtube a:passe o mouse, .spotify a:passe o mouse {
+    cor: #cc5200;
+    decoração de texto: sublinhado;
+}
+
+.Sucesso {
+    alinhamento de texto: centro;
+    cor de fundo: #fff;
+    cor: #333;
+    largura máxima: 500px;
+    margem: 40px automático;
+    preenchimento: 20px;
+    raio da borda: 12px;
+    caixa-sombra: 0 4px 10px rgba(0,0,0,0.3);
+    transição: transformação 0,2s;
+}
+
+.Sucesso:hover {
+    transformar: translateY(-5px);
+}
+
+.Sucesso p {
+    tamanho da fonte: 1rem;
+    margem inferior: 15px;
+    cor: #555;
+}
+
+.Sucesso img {
+    largura: 100%;
+    largura máxima: 400px;
+    raio da borda: 10px;
+    margem inferior: 15px;
+}
+
+.Sucesso a {
+    exibição: bloco embutido;
+    preenchimento: 10px 20px;
+    cor de fundo: #ff6600;
+    cor: #fff;
+    espessura da fonte: negrito;
+    decoração de texto: nenhuma;
+    raio da borda: 8px;
+    transição: fundo 0,3s;
+}
+
+.Sucesso em:hover {
+    cor de fundo: #cc5200;
+}

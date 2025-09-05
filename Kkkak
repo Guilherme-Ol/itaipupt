@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff6600;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.cabecalho {
+    background-color: #e65c00;
+    padding: 10px 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.cabecalho .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.menu-cabecalho ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-cabecalho a {
+    color: #fff;
+    font-size: 1.3rem;
+    transition: 0.3s;
+}
+
+.menu-cabecalho a:hover {
+    color: #ffe0cc;
+}
+
+.menu {
+    background-color: #cc5200;
+    padding: 10px 0;
+    margin-top: 80px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #ffe0cc;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 30px 0 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ffe6cc;
+    margin-bottom: 30px;
+}
+
+
+.Youtube, .spotify {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.Youtube:hover, .spotify:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+.Youtube img, .spotify img {
+    width: 50px;
+    height: auto;
+}
+
+.Youtube a, .spotify a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6600;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.Youtube a:hover, .spotify a:hover {
+    color: #cc5200;
+    text-decoration: underline;
+}
+
+.Sucesso {
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+
+.Sucesso:hover {
+    transform: translateY(-5px);
+}
+
+.Sucesso p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.Sucesso img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.Sucesso a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.Sucesso a:hover {
+    background-color: #cc5200;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<cabeça>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="largura=largura-do-dispositivo, escala-inicial=1.0">
+    <title>Documento</title>
+
+    <link rel="folha de estilo" href="musicas.css">
+
+</cabeçalho>
+<corpo>
+    <div class="site">
+
+        <header class="cabecalho">
+
+            <div class="container">
+
+                <div class="logo">
+                    <img src="cantorsertanejo.png"
+                        alt="">
+                </div>
+
+                <div class="menu-cabecalho">
+
+                    <ul>
+                        <li> <a href="#"> <i class="bi bi-pesquisa"></i> </a></li>
+                        <li> <a href="#"> <i class="bi bi-instagram"></i> </a></li>
+                        <li> <a href="#"> <i class="bi bi-linkedin"></i> </a></li>
+                        <li> <a href="#"> <i class="bi bi-facebook"></i> </a></li>
+                        <li> <a href="#"> <i class="bi bi-youtube"></i> </a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </cabeçalho>
+
+        <menu class="menu">
+
+            <div class="container">
+
+                <ul>
+                    <li><a href="#">História</a></li>
+                    <li><a href="#">Álbum de fotos</a></li>
+                    <li><a href="#">Letra de Música </a></li>
+                    <li><a href="#">Página de contato</a></li>
+                    
+                </ul>
+
+            </div>
+
+        </menu>
+    <h1>Músicas</h1>
+    <h2>Ouça algumas de suas músicas mais tocadas do momento no youtube, spotify ou em suas redes sociais!</h2>
+    
+    <div class="Youtube">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="">
+    <a href="https://www.youtube.com/@JeffersonPar%C3%A1-m6w1b">Canal no youtube</a>
+    </div>
+
+    <div class="spotify">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png" alt="">
+    <a href="https://open.spotify.com/intl-pt/">spotify</a>
+    </div>
+
+    <div class="Sucesso">
+        <p>Ouça agora o som mais famoso de Jeffesrson Pará, estourado em todas as redes sociais!</p>
+        <img src="https://i.ytimg.com/an_webp/vXNSMaCPUoU/mqdefault_6s.webp?du=3000&sqp=CJjG2MUG&rs=AOn4CLBk5kJOjLhDqFu6vxRnuAVBmpuWkg" alt="">
+        <a href="https://www.youtube.com/watch?v=vXNSMaCPUoU">Ouça agora</a>
+    </div>
+    
+</corpo>
+</html>
